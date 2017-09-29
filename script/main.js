@@ -50,6 +50,13 @@ theImages.forEach(function(element, index) {
 
 });
 
+//theHeading.classlist.add('spring');
+
+//document.querySelector('#spring').click();
+
+// more programy type way to do the same thing
+changeElements.call(document.querySelector('#spring'));
+
 theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
 theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
 theHeading.classList.add('spring');
